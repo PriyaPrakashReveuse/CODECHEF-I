@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int t;
+    cin>>t;
+    int n;
+    
+    for(int i=0;i<t;i++)
+    {
+        cin>>n;
+        cout<<((n==2010||n==2015||n==2016||n==2017||n==2019)?"HOSTED":"NOT HOSTED")<<endl;
+    }
+    return 0;
+}
