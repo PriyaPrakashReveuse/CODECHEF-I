@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int fact=1,n=0,a=0;
+    cin>>n;
+    for(int i=0;i<n;i++)
+    {
+        cin>>a;
+        for(int j=1;j<=a;j++)
+        {
+            fact=fact*j;
+        }
+    }cout<<fact<<endl;
+    return 0;
+}
