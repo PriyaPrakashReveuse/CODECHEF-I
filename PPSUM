@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int sum(int n)
+{
+    int sum=(n*(n+1))/2;
+    return sum;
+}
+
+int main() {
+	int t;
+	int d,n,temp;
+	cin>>t;
+	
+	for(int i=0;i<t;i++)
+	{
+	    cin>>d>>n;
+	    for(int j=0;j<d;j++)
+	    {
+	        temp=n;
+	        n=sum(temp);
+	    }
+	  cout<<n<<endl;  
+	}
+	return 0;
+}
