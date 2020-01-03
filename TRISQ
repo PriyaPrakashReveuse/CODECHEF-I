@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int t,a,answ=0;
+    cin>>t;
+    for(int i=0;i<t;i++)
+    {
+        cin>>a;
+       answ=(a/2*(a/2-1))/2;
+    }
+    cout<<answ<<endl;
+    
+    return 0;
+}
