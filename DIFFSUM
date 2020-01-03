@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,sum=0,subtract=0;
+    cin>>a>>b;
+    if(a>b)
+    {
+        subtract=a-b;
+        cout << a << " - " <<  b << " = " << subtract;
+    }
+    else
+    
+    {
+        sum=a+b;
+        cout << a<< " - " <<  b << " = " << sum;
+    }
+    return 0;
+}
